@@ -120,8 +120,35 @@ html {
     left: -1.9rem;
 }
 .testimonial{
-    height: 100vh;
+    height: 40vh;
     background-color: var(--main-bg-color);
+}
+.testimonial__inner{
+    width: 70%;
+    height: 40vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial__container{
+    display: flex;
+    width: 70%;
+}
+.testimonial__elem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.testimonial__text, .testimonial__img{
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+}
+.appartments{
+    height: 80vh;
 }
 
 
