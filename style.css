@@ -125,7 +125,19 @@ html {
 }
 
 
+.houses{
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 48px;
+    line-height: 100%;
+    text-align: Left;
+    vertical-align: Top;
+    color: var(--title-color);
+}
 
-
-
+.images_houses{
+    height: 320px;
+    background: Linear-Gradient(rgba(36, 43, 51, 0) 0%, #242B33 100%),
+    url(img/houses/Rectangle.png);
+}
 
