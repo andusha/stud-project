@@ -44,6 +44,13 @@ html {
     font-family: var(--text-font);
     color: var(--text-color);
 }
+.menu{
+    font-family: var(--text-font);
+    color: var(--text-color);
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
 .decoration{
     font-family: var(--title-font);
     color: var(--text-color);
@@ -236,8 +243,57 @@ html {
     bottom: -10%;
 }
 .footer{
-    height: 30vh;
+    height: 25vh;
     background-color: var(--footer-bg-color);
+}
+.footer__inner{
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.footer__links{
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.footer__menu{
+    gap: 0.5rem;
+}
+.appartments{
+    height: 80vh;
+    background-color: var(--main-bg-color);
+    position: relative;
+}
+.appartments__inner{
+    width: 1110px;
+    height: 100%;
+    margin: auto;
+}
+.appartments__title{
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 7%;
+}
+.appartments__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+}
+.appartments__elem{
+    position: relative;
+}
+.appartments__text{
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    font-size: 24px;
+    line-height: 28px;
+}
+.appartments__decoration{
+    position: absolute;
+    top: -8%;
+    left: 9%;
 }
 
 
